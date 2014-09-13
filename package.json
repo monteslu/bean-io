@@ -1,0 +1,26 @@
+{
+  "name": "bean-io",
+  "version": "0.1.0",
+  "description": "Punchthrough LightBlue Bean IO",
+  "main": "lib/bean",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git@github.com:monteslu/bean-io.git",
+  "keywords": [
+    "bean",
+    "ble",
+    "lightblue",
+    "punchthrough",
+    "johnny-five"
+  ],
+  "main": "lib/bean",
+  "author": "Luis Montes",
+  "license": "ISC",
+  "dependencies": {
+    "bean-serial": "^0.1.0",
+    "ble-bean": "^0.8.0",
+    "firmata": "git://github.com/monteslu/firmata#nohandshake",
+    "noble": "git://github.com/octoblu/noble"
+  }
+}
