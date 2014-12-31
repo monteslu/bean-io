@@ -12,6 +12,9 @@ In order to use the bean-io library, you will need to load Jacob Rosenthal's
 [StandardFirmata.ino fork](https://github.com/jacobrosenthal/arduino/blob/bean/examples/StandardFirmata/StandardFirmata.ino) firmware onto your
 Bean device. We recommend you review [Punchthrough's Getting Started guide](http://punchthrough.com/bean/getting-started/) before continuing.
 
+### Linux Instructions
+
+Make sure before trying to install that libbluetooth-dev and bluez libraries are installed before attempting to install.
 
 ### Blink an Led
 
