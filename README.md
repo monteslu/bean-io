@@ -11,6 +11,9 @@ Bean-io is a Firmata-compatibility IO class for writing node programs that inter
 In order to use the bean-io library, you will need to load examples->Firmata-Standard Firmata onto your
 Bean device. We recommend you review [Punchthrough's Getting Started guide](http://punchthrough.com/bean/getting-started/) before continuing.
 
+### Linux Instructions
+
+Make sure before trying to install that libbluetooth-dev and bluez libraries are installed before attempting to install.
 
 ### Blink an Led
 
