@@ -13,7 +13,7 @@ Bean device. We recommend you review [Punchthrough's Getting Started guide](http
 
 ### Linux Instructions
 
-Make sure before trying to install that libbluetooth-dev and bluez libraries are installed before attempting to install.
+Make sure that libbluetooth-dev and bluez libraries are installed before installing bean-io.
 
 ### Blink an Led
 
