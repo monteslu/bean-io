@@ -1,6 +1,6 @@
 {
   "name": "bean-io",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Punchthrough LightBlue Bean IO",
   "main": "lib/bean",
   "scripts": {
