@@ -8,8 +8,10 @@ Bean-io is a Firmata-compatibility IO class for writing node programs that inter
 
 ### Getting Started
 
-In order to use the bean-io library, you will need to load examples->Firmata-Standard Firmata onto your
-Bean device. We recommend you review [Punchthrough's Getting Started guide](http://punchthrough.com/bean/getting-started/) before continuing.
+In order to use the bean-io library, you will need to load a special version of Firmata onto your
+Bean device. [Bean Firmata](https://github.com/jacobrosenthal/arduino/blob/bean/examples/StandardFirmata/StandardFirmata.ino)
+
+ We recommend you review [Punchthrough's Getting Started guide](http://punchthrough.com/bean/getting-started/) before continuing.
 
 ### Linux Instructions
 
