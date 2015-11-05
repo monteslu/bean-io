@@ -57,6 +57,44 @@ board.on("ready", function() {
 });
 ```
 
+### Use ble-bean and Johnny-Five Api Together
+
+```js
+var five = require("johnny-five");
+var beanio = require("bean-io");
+var boardIO = new beanio.Board({
+//    name: "ZAPP" // optional: you can specify a localName otherwise defaults to nearby bean
+});
+
+var board = new five.Board({
+  io: boardIO
+});
+
+board.on("ready", function() {
+
+  var button = new five.Button(12); // button on pin 4
+
+  button.on("down", function() {
+    console.log("down");
+    boardIO.connectedBean.setColor(new Buffer([0, 64, 64]), function(err){
+      console.log('set color on', err);
+    });
+  });
+
+  button.on("hold", function() {
+    console.log("hold");
+    boardIO.connectedBean.setColor(new Buffer([0, 0, 0]), function(err){
+      console.log('set color off', err);
+    });
+  });
+
+  button.on("up", function() {
+    console.log("up");
+
+  });
+});
+```
+
 
 ### API
 
